@@ -1,29 +1,22 @@
 # FooJs
 
-TODO: Write a gem description
+Test zur Erstellung eines Gems
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Einfügen ins Gemfile
 
-    gem 'foo_js'
-
-And then execute:
+    gem 'foo_js', :git => 'git@github.com:cmu/foo_js.git'
 
     $ bundle
 
-Or install it yourself as:
+Einfügen in der application.js
 
-    $ gem install foo_js
+    //= require foo_js
 
-## Usage
 
-TODO: Write usage instructions here
+## Ausgabe
 
-## Contributing
+In der Browser-Console wird zum Test lediglich "foo js gem" ausgegeben
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+
